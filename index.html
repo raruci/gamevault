@@ -3,9 +3,13 @@
 <head>
     <meta charset="UTF-8">
 
-    <!-- Membuat website responsive pada perangkat mobile -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Responsive -->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
+    <!-- SEO -->
     <meta
         name="description"
         content="GameVault - Your Gateway to Better Gaming. Discover digital gaming products for gamers."
@@ -32,36 +36,82 @@
          NAVBAR
     =========================================== -->
     <header class="navbar">
+
         <div class="container navbar-container">
 
+            <!-- Logo -->
             <a href="#home" class="logo">
-                <span class="logo-icon">🎮</span>
-                <span>GAME<span>VAULT</span></span>
+
+                <img
+                    src="assets/logo.png"
+                    alt="GameVault Logo"
+                    class="logo-image"
+                >
+
+                <span>
+                    GAME<span>VAULT</span>
+                </span>
+
             </a>
 
-            <nav class="nav-menu" id="navMenu">
-                <a href="#home" class="nav-link active">Home</a>
-                <a href="#products" class="nav-link">Products</a>
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#how-it-works" class="nav-link">How It Works</a>
 
-                <a href="#products" class="nav-button">
+            <!-- Navigation -->
+            <nav class="nav-menu" id="navMenu">
+
+                <a
+                    href="#home"
+                    class="nav-link active"
+                >
+                    Home
+                </a>
+
+                <a
+                    href="#products"
+                    class="nav-link"
+                >
+                    Products
+                </a>
+
+                <a
+                    href="#features"
+                    class="nav-link"
+                >
+                    Features
+                </a>
+
+                <a
+                    href="#how-it-works"
+                    class="nav-link"
+                >
+                    How It Works
+                </a>
+
+                <a
+                    href="#products"
+                    class="nav-button"
+                >
                     Get Started
                 </a>
+
             </nav>
 
-            <!-- Mobile Menu Button -->
+
+            <!-- Mobile Menu -->
             <button
                 class="menu-toggle"
                 id="menuToggle"
                 aria-label="Open navigation menu"
+                type="button"
             >
+
                 <span></span>
                 <span></span>
                 <span></span>
+
             </button>
 
         </div>
+
     </header>
 
 
@@ -70,56 +120,97 @@
         <!-- ==========================================
              HERO SECTION
         =========================================== -->
-        <section class="hero" id="home">
+        <section
+            class="hero"
+            id="home"
+        >
 
             <div class="hero-background"></div>
 
+
             <div class="container hero-container">
 
+                <!-- Hero Content -->
                 <div class="hero-content">
 
                     <span class="hero-badge">
                         ⚡ DIGITAL GAMING MARKETPLACE
                     </span>
 
+
                     <h1>
                         LEVEL UP YOUR
                         <span>GAMING EXPERIENCE</span>
                     </h1>
+
 
                     <p>
                         Discover digital gaming products made for gamers.
                         Simple, fast, and designed for your gaming journey.
                     </p>
 
+
+                    <!-- Hero Buttons -->
                     <div class="hero-buttons">
 
-                        <a href="#products" class="btn btn-primary">
+                        <a
+                            href="#products"
+                            class="btn btn-primary"
+                        >
                             Explore Now
                             <span>→</span>
                         </a>
 
-                        <a href="#how-it-works" class="btn btn-secondary">
+
+                        <a
+                            href="#how-it-works"
+                            class="btn btn-secondary"
+                        >
                             Learn More
                         </a>
 
                     </div>
 
+
+                    <!-- Hero Statistics -->
                     <div class="hero-stats">
 
                         <div class="stat">
-                            <strong>100+</strong>
-                            <span>Products</span>
+
+                            <strong>
+                                100+
+                            </strong>
+
+                            <span>
+                                Products
+                            </span>
+
                         </div>
 
-                        <div class="stat">
-                            <strong>4.9</strong>
-                            <span>User Rating</span>
-                        </div>
 
                         <div class="stat">
-                            <strong>24/7</strong>
-                            <span>Access</span>
+
+                            <strong>
+                                4.9
+                            </strong>
+
+                            <span>
+                                User Rating
+                            </span>
+
+                        </div>
+
+
+                        <div class="stat">
+
+                            <strong>
+                                24/7
+                            </strong>
+
+                            <span>
+                                Access
+                            </span>
+
                         </div>
 
                     </div>
@@ -132,20 +223,40 @@
 
                     <div class="glow-circle"></div>
 
+
                     <div class="gaming-card">
 
                         <div class="card-top">
-                            <span>GAMEVAULT</span>
-                            <span>●</span>
+
+                            <span>
+                                GAMEVAULT
+                            </span>
+
+                            <span>
+                                ●
+                            </span>
+
                         </div>
 
-                        <div class="controller">
-                            🎮
+
+                        <!-- Hero Image -->
+                        <div class="hero-image-wrapper">
+
+                            <img
+                                src="assets/hero.png"
+                                alt="GameVault Gaming Collection"
+                                class="hero-image"
+                            >
+
                         </div>
+
 
                         <div class="gaming-card-content">
 
-                            <span>DIGITAL COLLECTION</span>
+                            <span>
+                                DIGITAL COLLECTION
+                            </span>
+
 
                             <h3>
                                 Game On.
@@ -153,11 +264,20 @@
                                 Play More.
                             </h3>
 
+
                             <div class="card-line"></div>
 
+
                             <div class="card-bottom">
-                                <span>GV-2026</span>
-                                <span>•••• 2026</span>
+
+                                <span>
+                                    GV-2026
+                                </span>
+
+                                <span>
+                                    •••• 2026
+                                </span>
+
                             </div>
 
                         </div>
@@ -167,13 +287,17 @@
                 </div>
 
             </div>
+
         </section>
 
 
         <!-- ==========================================
              FEATURES SECTION
         =========================================== -->
-        <section class="features section" id="features">
+        <section
+            class="features section"
+            id="features"
+        >
 
             <div class="container">
 
@@ -183,10 +307,12 @@
                         WHY GAMEVAULT
                     </span>
 
+
                     <h2>
                         Built For The
                         <span>Gaming Community</span>
                     </h2>
+
 
                     <p>
                         Everything you need for a simple and enjoyable
@@ -198,13 +324,16 @@
 
                 <div class="features-grid">
 
+                    <!-- Feature 1 -->
                     <article class="feature-card">
 
                         <div class="feature-icon">
                             ⚡
                         </div>
 
-                        <h3>Fast & Simple</h3>
+                        <h3>
+                            Fast & Simple
+                        </h3>
 
                         <p>
                             Easy navigation and a simple interface
@@ -214,13 +343,16 @@
                     </article>
 
 
+                    <!-- Feature 2 -->
                     <article class="feature-card">
 
                         <div class="feature-icon">
                             🔒
                         </div>
 
-                        <h3>Secure</h3>
+                        <h3>
+                            Secure
+                        </h3>
 
                         <p>
                             Designed with security and user trust
@@ -230,13 +362,16 @@
                     </article>
 
 
+                    <!-- Feature 3 -->
                     <article class="feature-card">
 
                         <div class="feature-icon">
                             🎮
                         </div>
 
-                        <h3>Gaming Focused</h3>
+                        <h3>
+                            Gaming Focused
+                        </h3>
 
                         <p>
                             Focused on digital gaming products and
@@ -246,13 +381,16 @@
                     </article>
 
 
+                    <!-- Feature 4 -->
                     <article class="feature-card">
 
                         <div class="feature-icon">
                             💳
                         </div>
 
-                        <h3>Easy Payment</h3>
+                        <h3>
+                            Easy Payment
+                        </h3>
 
                         <p>
                             Multiple payment options are presented
@@ -264,28 +402,36 @@
                 </div>
 
             </div>
+
         </section>
 
 
         <!-- ==========================================
              PRODUCTS SECTION
         =========================================== -->
-        <section class="products section" id="products">
+        <section
+            class="products section"
+            id="products"
+        >
 
             <div class="container">
 
                 <div class="section-heading section-heading-row">
 
                     <div>
+
                         <span class="section-label">
                             FEATURED PRODUCTS
                         </span>
+
 
                         <h2>
                             Explore Our
                             <span>Digital Collection</span>
                         </h2>
+
                     </div>
+
 
                     <span class="product-note">
                         Demo products
@@ -296,7 +442,10 @@
 
                 <div class="products-grid">
 
-                    <!-- PRODUCT 1 -->
+
+                    <!-- ==================================
+                         PRODUCT 1
+                    =================================== -->
                     <article class="product-card">
 
                         <div class="product-image product-image-one">
@@ -305,11 +454,15 @@
                                 POPULAR
                             </span>
 
-                            <div class="product-art">
-                                🎮
-                            </div>
+
+                            <img
+                                src="assets/product-1.png"
+                                alt="Gaming Starter Pack"
+                                class="product-img"
+                            >
 
                         </div>
+
 
                         <div class="product-content">
 
@@ -317,20 +470,24 @@
                                 DIGITAL BUNDLE
                             </span>
 
+
                             <h3>
                                 Gaming Starter Pack
                             </h3>
+
 
                             <p>
                                 Essential digital items for your
                                 gaming collection.
                             </p>
 
+
                             <div class="product-footer">
 
                                 <strong>
                                     Rp25.000
                                 </strong>
+
 
                                 <button
                                     class="product-button"
@@ -346,7 +503,9 @@
                     </article>
 
 
-                    <!-- PRODUCT 2 -->
+                    <!-- ==================================
+                         PRODUCT 2
+                    =================================== -->
                     <article class="product-card">
 
                         <div class="product-image product-image-two">
@@ -355,11 +514,15 @@
                                 NEW
                             </span>
 
-                            <div class="product-art">
-                                🕹️
-                            </div>
+
+                            <img
+                                src="assets/product-2.png"
+                                alt="Epic Skin Collection"
+                                class="product-img"
+                            >
 
                         </div>
+
 
                         <div class="product-content">
 
@@ -367,20 +530,24 @@
                                 DIGITAL COLLECTION
                             </span>
 
+
                             <h3>
                                 Epic Skin Collection
                             </h3>
+
 
                             <p>
                                 A collection concept for players
                                 who want to customize their games.
                             </p>
 
+
                             <div class="product-footer">
 
                                 <strong>
                                     Rp35.000
                                 </strong>
+
 
                                 <button
                                     class="product-button"
@@ -396,7 +563,9 @@
                     </article>
 
 
-                    <!-- PRODUCT 3 -->
+                    <!-- ==================================
+                         PRODUCT 3
+                    =================================== -->
                     <article class="product-card">
 
                         <div class="product-image product-image-three">
@@ -405,11 +574,15 @@
                                 SPECIAL
                             </span>
 
-                            <div class="product-art">
-                                💎
-                            </div>
+
+                            <img
+                                src="assets/product-3.png"
+                                alt="Premium Gaming Voucher"
+                                class="product-img"
+                            >
 
                         </div>
+
 
                         <div class="product-content">
 
@@ -417,20 +590,24 @@
                                 GAMING VOUCHER
                             </span>
 
+
                             <h3>
                                 Premium Gaming Voucher
                             </h3>
+
 
                             <p>
                                 A demo voucher product for the
                                 GameVault marketplace concept.
                             </p>
 
+
                             <div class="product-footer">
 
                                 <strong>
                                     Rp50.000
                                 </strong>
+
 
                                 <button
                                     class="product-button"
@@ -448,6 +625,7 @@
                 </div>
 
             </div>
+
         </section>
 
 
@@ -466,10 +644,12 @@
                             PAYMENT METHODS
                         </span>
 
+
                         <h2>
                             Easy & Flexible
                             <span>Payment</span>
                         </h2>
+
 
                         <p>
                             Choose a payment method that fits your needs.
@@ -482,22 +662,57 @@
 
                     <div class="payment-methods">
 
+                        <!-- QRIS -->
                         <div class="payment-card">
-                            <div class="payment-icon">💳</div>
-                            <strong>QRIS</strong>
-                            <span>Fast Payment</span>
+
+                            <div class="payment-icon">
+                                💳
+                            </div>
+
+                            <strong>
+                                QRIS
+                            </strong>
+
+                            <span>
+                                Fast Payment
+                            </span>
+
                         </div>
 
+
+                        <!-- E-Wallet -->
                         <div class="payment-card">
-                            <div class="payment-icon">📱</div>
-                            <strong>E-Wallet</strong>
-                            <span>Digital Wallet</span>
+
+                            <div class="payment-icon">
+                                📱
+                            </div>
+
+                            <strong>
+                                E-Wallet
+                            </strong>
+
+                            <span>
+                                Digital Wallet
+                            </span>
+
                         </div>
 
+
+                        <!-- Bank -->
                         <div class="payment-card">
-                            <div class="payment-icon">🏦</div>
-                            <strong>Bank Transfer</strong>
-                            <span>Secure Transfer</span>
+
+                            <div class="payment-icon">
+                                🏦
+                            </div>
+
+                            <strong>
+                                Bank Transfer
+                            </strong>
+
+                            <span>
+                                Secure Transfer
+                            </span>
+
                         </div>
 
                     </div>
@@ -505,13 +720,17 @@
                 </div>
 
             </div>
+
         </section>
 
 
         <!-- ==========================================
              HOW IT WORKS
         =========================================== -->
-        <section class="how-it-works section" id="how-it-works">
+        <section
+            class="how-it-works section"
+            id="how-it-works"
+        >
 
             <div class="container">
 
@@ -521,10 +740,12 @@
                         HOW IT WORKS
                     </span>
 
+
                     <h2>
                         Simple Steps.
                         <span>Easy Experience.</span>
                     </h2>
+
 
                     <p>
                         The GameVault concept keeps the user journey
@@ -536,17 +757,23 @@
 
                 <div class="steps">
 
+                    <!-- Step 1 -->
                     <article class="step">
 
                         <div class="step-number">
                             01
                         </div>
 
+
                         <div class="step-icon">
                             🔍
                         </div>
 
-                        <h3>Browse</h3>
+
+                        <h3>
+                            Browse
+                        </h3>
+
 
                         <p>
                             Explore digital gaming products
@@ -559,17 +786,23 @@
                     <div class="step-line"></div>
 
 
+                    <!-- Step 2 -->
                     <article class="step">
 
                         <div class="step-number">
                             02
                         </div>
 
+
                         <div class="step-icon">
                             🎮
                         </div>
 
-                        <h3>Choose</h3>
+
+                        <h3>
+                            Choose
+                        </h3>
+
 
                         <p>
                             Select the product that matches
@@ -582,17 +815,23 @@
                     <div class="step-line"></div>
 
 
+                    <!-- Step 3 -->
                     <article class="step">
 
                         <div class="step-number">
                             03
                         </div>
 
+
                         <div class="step-icon">
                             💳
                         </div>
 
-                        <h3>Payment</h3>
+
+                        <h3>
+                            Payment
+                        </h3>
+
 
                         <p>
                             Select a payment method and complete
@@ -604,11 +843,12 @@
                 </div>
 
             </div>
+
         </section>
 
 
         <!-- ==========================================
-             CTA
+             CTA SECTION
         =========================================== -->
         <section class="cta section">
 
@@ -618,21 +858,28 @@
 
                     <div class="cta-glow"></div>
 
+
                     <span class="section-label">
                         GAMEVAULT
                     </span>
+
 
                     <h2>
                         READY TO
                         <span>LEVEL UP?</span>
                     </h2>
 
+
                     <p>
                         Explore the GameVault digital gaming
                         marketplace concept.
                     </p>
 
-                    <a href="#products" class="btn btn-primary">
+
+                    <a
+                        href="#products"
+                        class="btn btn-primary"
+                    >
                         Get Started
                         <span>→</span>
                     </a>
@@ -655,12 +902,26 @@
 
             <div class="footer-main">
 
+                <!-- Footer Brand -->
                 <div class="footer-brand">
 
-                    <a href="#home" class="logo">
-                        <span class="logo-icon">🎮</span>
-                        <span>GAME<span>VAULT</span></span>
+                    <a
+                        href="#home"
+                        class="logo"
+                    >
+
+                        <img
+                            src="assets/logo.png"
+                            alt="GameVault Logo"
+                            class="logo-image"
+                        >
+
+                        <span>
+                            GAME<span>VAULT</span>
+                        </span>
+
                     </a>
+
 
                     <p>
                         Your Gateway to Better Gaming.
@@ -669,26 +930,46 @@
                 </div>
 
 
+                <!-- Footer Links -->
                 <div class="footer-links">
 
                     <div>
-                        <h4>Quick Links</h4>
 
-                        <a href="#home">Home</a>
-                        <a href="#products">Products</a>
-                        <a href="#features">Features</a>
+                        <h4>
+                            Quick Links
+                        </h4>
+
+
+                        <a href="#home">
+                            Home
+                        </a>
+
+                        <a href="#products">
+                            Products
+                        </a>
+
+                        <a href="#features">
+                            Features
+                        </a>
+
                         <a href="#how-it-works">
                             How It Works
                         </a>
+
                     </div>
 
 
                     <div>
-                        <h4>Contact</h4>
+
+                        <h4>
+                            Contact
+                        </h4>
+
 
                         <a href="mailto:hello@gamevault.demo">
                             Email
                         </a>
+
 
                         <a href="#">
                             Instagram
@@ -701,11 +982,13 @@
             </div>
 
 
+            <!-- Footer Bottom -->
             <div class="footer-bottom">
 
                 <span>
                     © 2026 GameVault. All rights reserved.
                 </span>
+
 
                 <span>
                     Demo Landing Page
@@ -718,7 +1001,9 @@
     </footer>
 
 
-    <!-- JavaScript -->
+    <!-- ==========================================
+         JAVASCRIPT
+    =========================================== -->
     <script src="js/script.js"></script>
 
 </body>
